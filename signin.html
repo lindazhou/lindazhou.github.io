@@ -1,0 +1,192 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Flower website sign in</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+      <style type="text/css">
+           .span1{
+            margin-right: -1px;
+            margin-top: 10px;
+            border-right: 1px solid #eeeeee;
+            color: rgb(138, 138, 138) ;
+          }
+
+         .span1:hover{
+            background-color: #eeeeee;
+            border-top: 1px solid #ffffff;  
+          }
+
+          .span1 img{
+            margin-right: 2px;
+            opacity:0.3;
+          }
+          
+          .span1:hover img{ 
+            opacity:1;
+            border-top: 1px solid #eeeeee;  
+          }
+
+          .span2:hover img{ 
+            opacity:0.6;
+          }
+
+          .form-horizontal{
+            margin: 40px auto 60px 0;
+            border-left: 1px solid #dbdbdb;
+
+          }
+
+         body{
+            background-color: #eeeeee;
+          }
+
+          .back{
+            background-color: #ffffff;
+            width: 1000px;
+            margin:0 auto 0 auto;
+          }
+          
+          #img4{
+            padding-top: 40px;
+          }
+
+          #img4:hover img{
+            opacity:1;
+          }
+         
+         .span3{
+          margin-top: 100px;
+         }
+      </style>
+
+    </head>
+
+
+
+    <body>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"> </script>
+     <script type="text/javascript">
+        function mouseOver()
+          {
+           document.getElementById('b1').src ="image/5.png"
+          }
+        function mouseOut()
+          {
+           document.getElementById('b1').src ="image/4.jpg"
+          }
+     </script>
+    
+
+
+  <div class="back">
+     <div class="container">
+       <div class="masthead">   
+          <div class="row">
+           <div class="span2"><a href="index.html"><img src="image/flowerstore.jpg" alt=""  /></a></div>
+           <div class="span7"></div>
+           <div class="span1"><a href="index.html"><img src="image/icon-home.png"  /></a>Home</div>
+           <div class="span1"><a href="#"><img src="image/icon-shopping-cart.png"  /></a>Cart</div>
+           <div class="span1"> <a href="signin.html" ><img src="image/icon-user.png"  /></a>Sign in </div>
+        </div>  
+     
+        <hr></hr>
+     </div>
+    
+    
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span2" id="img4" >
+          <a href="#" onmouseover="mouseOver()" onmouseout="mouseOut()">
+              <img alt="" src="image/4.jpg" id="b1" />
+           </a>
+        </div>
+        <div class="span3"  text align="left" >
+          <a href="#"> Create your ID now! </a>
+        </div>
+        <div class="span7">
+          <form class="form-horizontal"  >
+             <div class="control-group" >
+                <label class="control-label" for="inputEmail">ID</label>
+                  <div class="controls">
+                    <input type="text" id="inputEmail"  data-provide="typeahead" placeholder="Email">
+                  </div>
+             </div>
+             <div class="control-group">
+               <label class="control-label" for="inputPassword">Password</label>
+                 <div class="controls">
+                   <input type="password" id="inputPassword"  data-provide="typeahead" placeholder="Password">
+                </div>
+            </div>
+            <div class="control-group">
+               <div class="controls">
+                 <label class="checkbox">
+                   <input type="checkbox" > Remember me
+                </label>
+                <a href="index.html" type="submit" class="btn btn-primary">Sign in</a>
+                
+                   <!-- Button to trigger modal -->
+                <a href="#myModal" role="button" class="btn btn-link" data-toggle="modal">Forget your password?</a>
+                   <!-- Modal -->
+                   <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                          <h4 id="myModalLabel" text align="center">Get your password back</h4>
+                      </div>
+                      <div class="modal-body">
+                        <form class="form-horizontal">
+                            <div class="control-group">
+                               <label class="control-label" for="inputEmail">Email</label>
+                               <div class="controls">
+                                  <input type="text" id="inputEmail" placeholder="Email">
+                               </div>
+                               
+                            </div>
+                            <div class="control-group">
+                              <label class="control-label" for="inputPassword">Phone Number</label>
+                                <div class="controls">
+                                  <input type="password" id="inputPassword" placeholder="Number">
+                                  <button class="btn btn-info btn-small" type="button" >Send security code</button>
+                                </div>
+                            </div>
+                            <hr></hr>
+                            <div class="control-group">
+                              <label class="control-label" for="inputPassword">Security code</label>
+                                <div class="controls">
+                                  <input type="password" id="inputPassword" placeholder="Number">
+                                </div>
+                            </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                          <button class="btn" data-dismiss="modal" aria-hidden="true">Cancle</button>
+                          <button class="btn btn-primary">Next</button>
+                      </div>
+                   </div>
+
+               </div>
+             </div>
+           </form>
+          </div>
+        </div>
+
+        <hr></hr>
+      </div>
+      
+   
+
+
+      <div class="footer">
+        <div class="container" text align="center">
+           <p >&copy 2013 Company, Inc. & <a href="#">Privacy</a> & <a href="#">Terms</a></p>
+        </div>
+      </div>
+
+
+  </div> 
+
+    </body>
+    </html>
