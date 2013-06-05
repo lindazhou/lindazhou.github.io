@@ -1,0 +1,79 @@
+           body{
+            background-color: #fdfdfd; 
+            font-family: Helvetica, sans-serif,Georgia,"Times New Roman",Times,serif;
+          }
+          .container {
+            width: 1170px;
+            margin: 0px auto 0px auto ; 
+          }
+          .masthead .span7{    
+            width: 60%;
+              margin: 0 0 0 -30px;
+          }
+          .masthead .span1{
+            text-align: right;
+            margin: 20px -1px 0 0;
+            color: rgb(138, 138, 138) ;
+            width: 8%;
+            border-right: 1px solid #eee;
+          }
+          .masthead .span1 a{
+            text-decoration: none;
+          }
+          .masthead .span2{
+            margin: 20px 0 0 25px;
+            width: 16%; 
+          }
+          .masthead .span1:hover{
+            background-color: #eeeeee;
+            border-top: 1px solid #ffffff;  
+          }
+          .masthead .span1 img{
+            margin-right: 2px;
+            opacity:0.3;
+          }
+          .masthead .span1:hover img{ 
+            opacity:1;
+            border-top: 1px solid #eeeeee;  
+          }
+         .masthead .span2:hover img{ 
+            opacity:0.6;
+          }
+          .nav li:hover ul {
+            display: block;
+          }
+          .navbar .navbar-inner ul li:hover {
+            background: #ffffff;
+            border-top: 3px solid rgb(174, 199, 30);
+          }
+          .dropdown-menu{
+            z-index: 99;
+            margin-top: 0px;
+            background: #ffffff;
+            border: none;
+            border-radius: 0px;
+          }
+          .nav .dropdown ul li:hover a{
+           background:  rgb(174, 199, 30);
+          }
+           .masthead{
+            height: 175px;
+           }
+           .navbar{
+            width: 100%;
+            left: 0px; 
+            position: absolute;
+            top: 125px;
+            z-index: 98;
+          } 
+          .containernav{
+             width: 1170px;
+             margin: 0px auto 0px auto;
+          }
+          .brand{
+            background-color: #f1f1f1;
+            width: 198px;  
+          }
+  
+          
+

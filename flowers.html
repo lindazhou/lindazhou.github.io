@@ -5,216 +5,44 @@
    	    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
    	    <!-- Bootstrap -->   
    	    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-       <style type="text/css">
-          .span1{
-            margin-right: -1px;
-            margin-top: 20px;
-            border-right: 1px solid #eeeeee;
-            color: rgb(138, 138, 138) ;
-          }
-          .span2{
-            margin-top: 20px;
-          }
-          .span1:hover{
-            background-color: #eeeeee;
-            border-top: 1px solid #ffffff;  
-          }
-
-          .span1 img{
-            margin-right: 2px;
-            opacity:0.3;
-          }
-          
-          .span1:hover img{ 
-            opacity:1;
-            border-top: 1px solid #eeeeee;  
-          }
-
-          .span2:hover img{ 
-            opacity:0.6;
-          }
-          
-          .nav li:hover ul {
-            display: block;
-          }
-      
-          .navbar .navbar-inner ul li:hover {
-            background: #ffffff;
-            border-top: 2px solid rgb(174, 199, 30);
-          }
-
-          .dropdown-menu{
-            z-index: 99;
-            margin-top: 0px;
-            background: #ffffff;
-            border: none;
-            border-radius: 0px;
-          }
-
-          .nav .dropdown ul li:hover a{
-           background:  rgb(174, 199, 30);
-          }
-
-           .masthead{
-            height: 177px;
-            max-height: 195px;
-           }
-            
-          .back{
-                margin:0 auto 0 auto;
-          }
-          
-          .nav-tabs {
-            width: 120px;
-            background-color: #c9c9c9;
-          }
-           
-          .titlearrival{
-            background-color: #d2d2d2;
-            padding: 15px 0px 1px 17px;
-            width: 923px;
-            margin-top: 5px;
-            margin-bottom: 2px;
-          }
-          .titlearrival p{
-             color: #fff;
-             font-weight: ;
-             font-size: 20px;
-          }
-          
-          .section p{
-           text-align: left;
-           text-decoration: none;
-           font-weight: normal;
-           color: rgb(138, 138, 138) ;
-          }
-           .carousel-control{
-            background-color: transparent;
-            border: 0;
-            height: 20px;
-            margin-left: -20px;
-            margin-right: -20px;
-            margin-top: 170px;
-      
-          }
-
-          .img{
-            border: 1px solid #e5e5e5;
-          }
-           
-           .container .row1{
-            margin-left:0px; 
-           }
-           .container .span3{
-            margin: 1px 0px 0px 2px;
-            width: 233px;
-           }
-           
-          .footer{
-            background-color: #eee;
-            margin: 0px auto 0 auto;
-            padding: 0px 0px 30px 200px;
-          }
-
-          .navbar{
-            text-align:left;
-            vertical-align: top;
-            top: 130px;
-            left: 0px;
-            z-index: 50000;
-            width: 100%;
-          
-          }
-
-          .navbar-inner .nav{
-            padding-left: 0px;
-            margin-left: 0px;
-            text-align: left;
-          }
-
-           .topbanner {
-            left: 0px;
-            width: 100%;
-            background-color: #fff;
-           }
-           
-      </style>
-
+       <link rel="stylesheet" type="text/css" href="css/flower.css" />
 
   </head>  
 
-  <body>        
-   		<script src="http://code.jquery.com/jquery.js"></script>  
-      <script src="js/bootstrap.min.js"></script>
-      <script>
-      !function ($) {
-        $(function(){
-          // carousel demo
-          $('#myCarousel').carousel()
-        })
-      }(window.jQuery)
-    </script>
+  <body>  
+  <link rel="stylesheet" type="text/css" href="css/head.css" />
+  <script language="JavaScript" src="js/head.js" type="text/JavaScript"></script>   
+   		
+
   
-  <div class="topbanner">
-     <div class="container">
-       <div class="masthead" > 
-
-         <div class="row">
-           <div class="span2"><a href="index.html"><img src="image/flowerstore.jpg" alt=""  /></a></div>
-           <div class="span7"></div>
-           <div class="span1"><a href="index.html"><img src="image/icon-home.png"  /></a>Home</div>
-           <div class="span1"><a href="#"><img src="image/icon-shopping-cart.png"  /></a>Cart</div>
-           <div class="span1"> <a href="signin.html" ><img src="image/icon-user.png"  /></a>Sign in </div>
-          </div>
-
-
-         <div class="navbar">
-           <div class="navbar-inner">
-             <div class="container">
-               <ul class="nav ">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li class="dropdown">
-                      <a class="dropdown-toggle" id="dlabel" role="button" data-toggle="dropdown" data-target="#" href="#" >Flowers <b class="caret"></b></a>
-                      
-                        <!-- Link or button to toggle dropdown -->
-                          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                             <li><a tabindex="-1" href="#">New Arrival</a></li>
-                             <li class="disabled"><a tabindex="-1" href="#">Rose</a></li>
-                             <li><a tabindex="-1" href="#">For Desk</a></li>
-                             <li class="divider"></li>
-                             <li><a tabindex="-1" href="#">For Wedding</a></li>
-                          </ul>
-                    </li>
-                    <li class="dropdown">
-                       <a class="dropdown-toggle" id="dlable" role="button" data-toggle="dropdown" data-target="#" href="#">Cakes <b class="caret"></b></a>
-                         
-                          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                             <li><a tabindex="-1" href="#">Chocolate</a></li>
-                             <li class="disabled"><a tabindex="-1" href="#">Mousse</a></li>
-                             <li><a tabindex="-1" href="#">Cream</a></li>
-                             <li class="divider"></li>
-                             <li><a tabindex="-1" href="#">Fruit</a></li>
-                          </ul>
-                   </li>
-                   <li><a href="#">Presents</a></li>
-                   <li><a href="#">About</a></li>
-                   <li><a href="#">Contact</a></li>
-                 </ul>
-              </div>
-            </div>
-          </div><!-- /.navbar -->
-        </div> <!-- /.masthead -->
-    </div><!-- /.container-->
-  </div>
-  <div ><img src="image/flowertophead1.png"></div>
    
-   
-         <div class="container">
-           
-           <div class="row1">
+ 
+         <div ><img src="image/flowertophead1.png"></div>
+         <div class="allproductslist">
+              
+
+
+         </div>
+            
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
                     <div class="container">
                       <div class="tablehead">
-                        <div class="titlearrival"><p>New Arrival</p></div>
+                        <div class="titlearrival"><h4>New Arrival</h4></div>
                         <table>
                            <tr>
                               <th rowspan="2">
@@ -227,6 +55,16 @@
                                     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
                                     <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
                                  </div><!-- /.carousel -->
+                                <script src="http://code.jquery.com/jquery.js"></script>  
+                                <script src="js/bootstrap.min.js"></script>
+                                  <script>
+                                    !function ($) {
+                                       $(function(){
+                                         // carousel demo
+                                         $('#myCarousel').carousel()
+                                        })
+                                     }(window.jQuery)
+                                  </script>
                               </th>
                               <th>
                                 <div class="img" ><img src="image/flowernewarrival.jpg"  /></div>
@@ -265,11 +103,13 @@
                            </tr>
                         </table>
                       </div>
+                      <hr></hr>
                     </div><!-- /.container -->
                       
 
                   <div class="container">
-                      <div class="titlearrival"><p>For Desk</p></div>
+                    <div class="tablespan">
+                      <div class="titlearrival"><h4>For Desk</h4></div>
                        <div class="row1">
                         <div class="span3">
                           <div class="img"><img  src="image/fordesk.jpg"  /></div>
@@ -306,10 +146,13 @@
                           <div class="section"> <p>rose &emsp;RBM:180 </p></div>
                         </div>
                       </div>
+                     </div>
+                     <hr></hr>
                    </div><!-- /.container -->
-
+                
                    <div class="container">
-                     <div class="titlearrival"> <p>For Wedding</p> </div>
+                    <div class="tablespan">
+                     <div class="titlearrival"> <h4>For Wedding</h4> </div>
                       <div class="row1">
                          <div class="span3">
                            <div class="img"><img  src="image/forwedding.jpg"  /></div>
@@ -346,47 +189,18 @@
                            <div class="section"> <p>rose &emsp;RBM:180 </p></div>
                         </div>
                       </div>
+                    </div>
+                    <hr></hr>
                   </div><!-- /.container-->
                  
-             
-           </div><!-- /.row-fluid -->
-
-         </div><!-- /.container-fluid -->
+         </div><!-- /.container -->
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-         <div class="footer">
-           <hr></hr>
-            <div class="containter">
-               <div class="row">
-                  <div class="span4"></div>
-                     <div class="span4" text align="center">
-                        <p >&copy 2013 Company, Inc. & <a href="#">Privacy</a> & <a href="#">Terms</a></p>
-                     </div>
-                     <div class="span4" text align="right">
-                       <p ><a href="#">Back to top</a></p>
-                    </div>
-                </div> 
-            </div>
-         </div>
+     <script language="JavaScript" src="js/footer.js" type="text/JavaScript"></script>   
+     <link rel="stylesheet" type="text/css" href="css/footer.css" />     
+  
  
 
   </body>

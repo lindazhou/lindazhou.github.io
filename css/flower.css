@@ -1,0 +1,33 @@
+
+          .container{
+
+            margin-right:0px; 
+          }
+          .tablehead{
+            margin-left: 220px;
+          }
+          .tablespan{
+            margin-left: 220px;
+          }
+          .section p{
+           text-align: left;
+           text-decoration: none;
+           font-weight: normal;
+           color: rgb(138, 138, 138) ;
+          }
+           .carousel-control{
+            background-color: transparent;
+            border: 0;
+            height: 20px;
+            margin-left: -20px;
+            margin-right: -20px;
+            margin-top: 170px;
+          }
+          .img{
+            border: 1px solid #e5e5e5;
+          }
+           
+           .container .span3{
+            margin: 1px 2px 0px 0px;
+            width: 233px;
+           }
