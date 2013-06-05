@@ -1,13 +1,13 @@
  
-document.write(' <link rel="stylesheet" type="text/css" href="../flower/css/head.css" /> ');
+document.write(' <link rel="stylesheet" type="text/css" href="css/head.css" /> ');
 document.write(' <div class="container">');
        document.write('<div class="masthead" >'); 
         document.write(' <div class="row">');
-           document.write(' <div class="span2"><a href="index.html"><img src="../flower/image/flowerstore.png" alt=""  /></a></div>');
+           document.write(' <div class="span2"><a href="index.html"><img src="image/flowerstore.png" alt=""  /></a></div>');
            document.write('<div class="span7"></div>');
-           document.write('<a href="index.html"><div class="span1"><img src="../flower/image/iconhome.png"  />Home</div></a>');
-           document.write('<a href="#"><div class="span1"><img src="../flower/image/iconshoppingcart.png"  />Cart</div></a>');
-           document.write('<a href="signin.html" ><div class="span1"> <img src="../flower/image/iconuser.png"  />Sign in </div></a>');
+           document.write('<a href="index.html"><div class="span1"><img src="image/iconhome.png"  />Home</div></a>');
+           document.write('<a href="#"><div class="span1"><img src="image/iconshoppingcart.png"  />Cart</div></a>');
+           document.write('<a href="signin.html" ><div class="span1"> <img src="image/iconuser.png"  />Sign in </div></a>');
           document.write('</div>');
          document.write('<div class="navbar">'); 
            document.write('<div class="navbar-inner">');
