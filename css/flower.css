@@ -1,13 +1,29 @@
 
-          .container{
+          .container-fluid{
+            width: 1170px;
+            margin:0px auto 0px auto; 
+          }
+          .container-fluid .span2{
+            width: 220px;
+            margin-left:0px;
+            margin-right: 0px; 
+          }
+          .container-fluid .span10{
+            width: 940px;
+            margin-left:10px;
+            margin-right: 0px; 
+          }
+           .span10 .container{
+            width: 940px;
+            margin: 30px 0px 30px 0px;
+          }
 
-            margin-right:0px; 
-          }
-          .tablehead{
-            margin-left: 220px;
-          }
-          .tablespan{
-            margin-left: 220px;
+          .titlearrival h4{
+            background-color: #e5e5e5;
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
           }
           .section p{
            text-align: left;
@@ -23,11 +39,58 @@
             margin-right: -20px;
             margin-top: 170px;
           }
+           .tablespan{
+            border: 1px solid #bdbdbd;
+           }
           .img{
             border: 1px solid #e5e5e5;
           }
            
            .container .span3{
             margin: 1px 2px 0px 0px;
-            width: 233px;
+            width: 232px;
+           }
+
+
+           
+           .leftnavlist{
+            width: 246px;
+            margin-left: -20px;
+            margin-top: -10px;
+            border-left: 1px solid #b5b5b5;
+            border-right:  1px solid #b5b5b5;
+            border-bottom:  1px solid #b5b5b5;
+           }
+           .productslist1{
+            width:245px;
+            background-color: #fff; 
+            line-height: 25px;
+           }
+           .productslist2{
+            width:245px;
+            background-color: #f1f1f1; 
+            line-height: 25px;
+           }
+           .listhead{
+            font-size: 16px;
+            padding-left: 20px;
+            line-height: 50px;
+            background: url(../image/triangle.png) no-repeat 3px 50%;
+           }
+           .leftbar{
+            padding-left: 20px;
+            width: 225px;
+           }
+           .leftbar .row li {
+            list-style-type:none;  
+           }
+           .leftbar .row li a{
+            text-decoration: none;
+            color: #000;
+            margin-left:6px;
+            margin-right:6px; 
+            line-height: 30px;   
+           }
+           .leftbar .row li a:hover{
+            background-color: #e5e5e5;
            }

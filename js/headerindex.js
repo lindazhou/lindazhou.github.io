@@ -12,7 +12,6 @@ document.write(' <div class="container">');
          document.write('<div class="navbar">'); 
            document.write('<div class="navbar-inner">');
              document.write('<div class="containernav">');
-             document.write(' <a class="brand">ALL Products List</a>');
                document.write('<ul class="nav "> ');   
                   document.write('<li class="active"><a href="#">Home</a></li>');
                   document.write('<li class="dropdown">');
